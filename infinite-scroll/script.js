@@ -20,7 +20,6 @@ const apiKey = 'vGe--UdSmigzT-zcPm4YPnoqthAdXpEJwfK3NP_Eb-c'
 const apiUrl = `https://api.unsplash.com/photos/random/?client_id=${apiKey}&count=${count}`;
 
 function imageLoaded() {
-  console.log('image loaded')
   imagesLoaded++;
   if (imagesLoaded === totalImages) {
     loader.hidden = true;
