@@ -8,6 +8,7 @@ const getRandomNumber = () => {
   return Math.floor(Math.random() * hex.length)
 }
 
+
 const changeButton = () => {
   let hexColor = '#'
   for (let i = 0; i < 6; i++) {
